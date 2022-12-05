@@ -1,5 +1,5 @@
 Arguments: 
-  /home/zjf/.nvm/versions/node/v16.14.2/bin/node /home/zjf/.node/corepack/yarn/1.22.15/bin/yarn.js add --dev dotenv
+  /home/zjf/.nvm/versions/node/v16.14.2/bin/node /home/zjf/.node/corepack/yarn/1.22.15/bin/yarn.js add global solc
 
 PATH: 
   /home/zjf/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Develop_Tools/jdk1.8.0_221/bin:/mnt/e/Develop_Tools/MySQL/MySQL Server 8.0/bin:/mnt/e/Develop_Tools/Maven/apache-maven-3.5.4/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Wolfram Research/WolframScript/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/c/WINDOWS":/mnt/e/Develop_Tools/yarn/bin/:/mnt/e/Develop_Tools/GO/bin:/mnt/e/ProgramData/nodejs/:/mnt/d/Python3.6/Scripts/:/mnt/d/Python3.6/:/mnt/f/Math/Python:/mnt/f/Math/Python/Library/mingw-w64/bin:/mnt/f/Math/Python/Library/usr/bin:/mnt/f/Math/Python/Library/bin:/mnt/f/Math/Python/Scripts:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Yarn/bin:/mnt/c/Users/DELL/go/bin:/mnt/e/Develop_Tools/Microsoft-VS-Code/bin:/mnt/e/Develop_Tools/GoLand/bin:/mnt/c/Users/DELL/AppData/Roaming/npm:/snap/bin
@@ -34,6 +34,7 @@ npm manifest:
       "@typechain/ethers-v5": "^10.1.1",
       "@typechain/hardhat": "^6.1.4",
       "chai": "^4.3.7",
+      "dotenv": "^16.0.3",
       "ethers": "^5.7.2",
       "hardhat": "^2.12.3",
       "hardhat-gas-reporter": "^1.0.9",
@@ -1720,6 +1721,11 @@ Lockfile:
     integrity sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==
     dependencies:
       path-type "^4.0.0"
+  
+  dotenv@^16.0.3:
+    version "16.0.3"
+    resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
+    integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
   
   ecc-jsbn@~0.1.1:
     version "0.1.2"
