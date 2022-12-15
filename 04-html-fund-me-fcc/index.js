@@ -63,7 +63,7 @@ async function fund() {
   } else {
     fundButton.innerHTML = "Please install MetaMask"
   }
-}
+} 
 
 async function getBalance() {
   if (typeof window.ethereum !== "undefined") {
